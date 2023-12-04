@@ -47,7 +47,7 @@ def maskear(og_test_img):
     return(prediction)
 
 
-model = load_model("E:\octavo\AI\person_segmentation\\87bs.hdf5", compile=False)
+model = load_model("87bs.hdf5", compile=False)
 
 # store background images in a list
 image_path = '/'
